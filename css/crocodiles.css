@@ -82,13 +82,13 @@ a {
     font-family:inherit;
     font-size:inherit;
     line-height: inherit;
-    color: #006bc3;
+    color: #ffffff;
     }
     a:hover {
-        color:#00447B;
+        color:#ffffff;
         }
         a:visited {
-        color:#6935d2;
+        color:#ffffff;
         }
 /*footer*/
 footer {
@@ -100,5 +100,38 @@ footer {
 main{
     margin-bottom: 2.5rem;
     }
-
-
+/*Header*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 0 8px 0;
+    overflow: hidden;
+    background-color: #852002;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #852002;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+.centre{
+    margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+        
