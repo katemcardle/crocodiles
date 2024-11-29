@@ -54,6 +54,8 @@ p {
     line-height: 1.5;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
+    padding-left: 24rem;
+    padding-right: 24rem;
     font-style: normal;
 }
 h3 {
