@@ -109,4 +109,7 @@ img {
     border:1px solid #101010;
     margin-bottom: 2rem;
     }
-        
+/*Align Content*/
+.center {
+    text-align: center;
+  }     
