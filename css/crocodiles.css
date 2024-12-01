@@ -8,9 +8,9 @@
 body {
     color:#101010;
     border-color: #101010;
-    background-color: #ffffff;
+    background-color: #eaeaea;
 }
-/*content container to centre content*/
+/*content container*/
 .container {
     max-width: 1020px;
     margin: 0 auto 0 auto;
@@ -145,3 +145,17 @@ img {
     margin-bottom: 2.5rem;
     color: #232C25;
 }
+/*Header*/
+header{
+    background-color: #232C25;
+    padding:1.5rem 0;
+    text-align: left;
+    }
+    header p.logo{
+    font-weight: 700;
+    color: #eaeaea;
+    margin-bottom:0;
+    font-size:1.5rem;
+    line-height: 1.1;
+    
+    }
