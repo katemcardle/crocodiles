@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-size:100%;
@@ -85,13 +84,15 @@ a {
  
 /*footer*/
 footer {
+    width: 100vw;
+    display: block;
+    overflow: hidden;
     background-color: #232C25;
-    text-align: left;
     font-size: 1rem;
     color: #eaeaea;
-    padding: 1rem 0 1rem 0;
-    margin-top:2rem;
-    border-top:1px solid #101010;
+    padding: 70px 0 70px 0;
+    box-sizing: border-box;
+    text-align: center;
     }
 
 /*Main*/
@@ -106,29 +107,29 @@ img {
     height:auto;
     border:1px solid #101010;
     }
+
 /*colour blocking*/
 .lummorn{
+    text-align: center;
     padding:3rem 0 3rem 0;
-    background-color: #8C371E	;
-    margin-bottom: 2.5rem;
-    color: #eaeaea;
+    background-color: #FCD345	;
+    color: #232C25;
 }
 .market{
+    text-align: center;
     padding:3rem 0 3rem 0;
     background-color: #eaeaea	;
-    margin-bottom: 2.5rem;
     color: #232C25;
 }
 .street{
+    text-align: center;
     padding:3rem 0 3rem 0;
     background-color: #FCD345	;
-    margin-bottom: 2.5rem;
     color: #232C25;
 }
 .about{
+    text-align: center;
     padding:3rem 0 3rem 0;
     background-color: #eaeaea	;
-    margin-bottom: 2.5rem;
     color: #232C25;
 }
-/*Header*/
