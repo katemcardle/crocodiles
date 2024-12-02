@@ -56,8 +56,8 @@ p {
     line-height: 1.5;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    padding-left: 24rem;
-    padding-right: 24rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
     font-style: normal;
 }
 
@@ -108,6 +108,12 @@ img {
     }
 
 /*colour blocking*/
+.about{
+    text-align: center;
+    padding:3rem 0 3rem 0;
+    background-color: #eaeaea	;
+    color: #232C25;
+}
 .lummorn{
     text-align: center;
     padding:3rem 0 3rem 0;
@@ -126,54 +132,44 @@ img {
     background-color: #FCD345	;
     color: #232C25;
 }
-.about{
+.furtherreading{
     text-align: center;
     padding:3rem 0 3rem 0;
     background-color: #eaeaea	;
     color: #232C25;
 }
 /*Header*/
-header{
-    margin: 0;
-    padding: 0;
+.title{
     background-color: #232C25;
     color: #eaeaea;
-    overflow: hidden;
+    font-weight: 600px;
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 2.5rem;
 
 }
-.headerlogo {
+/*Nav bar*/
+ul {
+    list-style-type: none;
     margin: 0;
-    padding: 24px 24px;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  .header a {
-    float: left;
-    color: #eaeaea;
-    text-align: center;
-    padding: 20px 10px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  .header a:hover {
-    background-color: #3A493D;
-    color: #eaeaea;
+    padding: 0;
+    overflow: hidden;
+    background-color: #232C25;
   }
   
-  .header-right {
-    float: right;
+  li {
+    float: left;
   }
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    
-    .header-right {
-      float: none;
-    }
+  
+  li a {
+    display: block;
+    color: #eaeaea;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #3A493D;
   }
   
