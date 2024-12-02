@@ -103,8 +103,7 @@ main{
 /* images*/
 img {
     width: 100%;
-    height:800px;
-    object-fit: cover;
+    height:650px;
     }
 
 /*colour blocking*/
@@ -172,4 +171,5 @@ ul {
   li a:hover {
     background-color: #3A493D;
   }
+
   
