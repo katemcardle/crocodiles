@@ -132,3 +132,15 @@ img {
     background-color: #eaeaea	;
     color: #232C25;
 }
+/*Header*/
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #232C25;
+    color: #eaeaea;
+
+}
+.headprg{
+    margin: 0;
+    padding: 0;
+}
