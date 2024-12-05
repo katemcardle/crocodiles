@@ -107,9 +107,16 @@ img {
     }
 
 /*colour blocking*/
+.intro{
+    text-align: center;
+    padding:2rem 0 2rem 0;
+    background-color: #eaeaea	;
+    color: #232C25;
+
+}
 .about{
     text-align: center;
-    padding:3rem 0 3rem 0;
+    padding:2rem 0 2rem 0;
     background-color: #eaeaea	;
     color: #232C25;
 
