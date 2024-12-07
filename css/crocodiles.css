@@ -12,13 +12,18 @@
 body {
     color:#101010;
     border-color: #101010;
-    background-color: #ffffff;
+    background-color: #0F291D;
 }
 /*content container*/
 .container {
     max-width: 1020px;
     margin: 0 auto 0 auto;
 }
+.aboutcontainer {
+    max-width: 1020px;
+    margin: 0 auto 0 auto;
+}
+
 
 /*Default Headings styles*/
 h1,h2,h3,h4,h5,h6 {
@@ -80,7 +85,7 @@ a {
     font-family:inherit;
     font-size:inherit;
     line-height: inherit;
-    color: #232C25;
+    color: #F8F5D2;
     }
  
 /*footer*/
@@ -88,9 +93,9 @@ footer {
     width: 100vw;
     display: block;
     overflow: hidden;
-    background-color: #232C25;
+    background-color: #1A372A;
     font-size: 1rem;
-    color: #eaeaea;
+    color: #F8F5D2;
     padding: 70px 0 70px 0;
     text-align: center;
     }
@@ -109,50 +114,60 @@ img {
 /*colour blocking*/
 .intro{
     text-align: center;
-    padding:2rem 0 2rem 0;
-    background-color: #eaeaea	;
-    color: #232C25;
-
+    background-color: #F8F5D2;
+    padding:3rem 10rem 3rem 10rem;
+    color: #0F291D;
+    margin-bottom: 5rem;
+}
+.extract{
+    text-align: center;
+    background-color: #0F291D;
+    padding: 2rem 2rem 0.5rem 2rem;
+    font-size: 200%;
+    font-weight: bolder;
+    color: #F8F5D2;
 }
 .about{
     text-align: center;
-    padding:2rem 0 2rem 0;
-    background-color: #eaeaea	;
-    color: #232C25;
+    padding:3rem;
+    background-color: #F8F5D2	;
+    color: #0F291D;
+    margin: 3rem 0 0 0;
 
 }
 .lummorn{
+    margin-top: 5rem;
     text-align: center;
     padding:3rem 0 3rem 0;
-    background-color: #FCD345	;
-    color: #232C25;
+    background-color: #F8F5D2	;
+    color: #0F291D;
 
 }
 .market{
     text-align: center;
     padding:3rem 0 3rem 0;
-    background-color: #eaeaea	;
-    color: #232C25;
+    background-color: #F8F5D2	;
+    color: #0F291D;
 
 }
 .street{
     text-align: center;
     padding:3rem 0 3rem 0;
-    background-color: #FCD345	;
-    color: #232C25;
+    background-color: #F8F5D2	;
+    color: #0F291D;
 
 }
 .furtherreading{
     text-align: center;
-    padding:3rem 0 3rem 0;
-    background-color: #eaeaea	;
-    color: #232C25;
+    padding:8rem 10rem;
+    background-color: #0F291D	;
+    color: #F8F5D2;
 
 }
 /*Header*/
 .title{
     background-color: #232C25;
-    color: #eaeaea;
+    color: #F8F5D2;
     font-weight: 400;
     font-size: 4.5rem;
     text-align: center;
@@ -164,9 +179,9 @@ img {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 22.5rem;
     overflow: hidden;
-    background-color: #232C25;
+    background-color: #1A372A;
   }
   
   li {
@@ -174,8 +189,8 @@ ul {
   }
   
   li a {
-    display: block;
-    color: #eaeaea;
+    display: inline-block;
+    color: #F8F5D2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -187,15 +202,18 @@ ul {
 /*css grids*/
 .grid {
     display: flex;
-    gap:24px;
+    gap: 0;
     flex-direction: row;
     height: auto;
     }
 /* CSS grids column widths */
-.grid-col-third {
-    flex-basis: 33.33%;
+.grid-col-half {
+    flex-basis: 50%;
     }
-    .grid-col-twoThirds {
-    flex-basis: 66.66%;
+    .grid-col-secondhalf {
+    flex-basis: 50%;
     }
-  
+/*Dividers*/
+hr.solid {
+    border-top: 3px solid #F8F5D2;
+  }
