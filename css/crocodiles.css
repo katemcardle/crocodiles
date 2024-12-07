@@ -177,15 +177,16 @@ img {
 }
 /*Nav bar*/
 ul {
-    list-style-type: none;
+    list-style: none;
+    text-align: center;
     margin: 0;
-    padding: 0 22.5rem;
+    padding: 1rem 0;
     overflow: hidden;
     background-color: #1A372A;
   }
   
   li {
-    float: left;
+    display: inline-block;
   }
   
   li a {
