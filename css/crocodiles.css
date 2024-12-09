@@ -339,6 +339,15 @@ hr.solid {
         font-size: 1rem;
         ;
     }
+    .about{
+        padding: 1.5rem;
+    }
+    .intro{
+        padding: 1.5rem;
+    }
+    .furtherreading{
+        padding: 1.5rem;
+    }
 
 }
 
