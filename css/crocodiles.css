@@ -150,10 +150,10 @@ img {
 }
 .about{
     text-align: left;
-    padding:3rem;
+    padding:5rem 3rem;
     background-color: #F3F3E0;
     color: #0F291D;
-    margin: 3rem 0 5rem 0;
+    margin:0;
 
 }
 .lummorn{
@@ -247,37 +247,124 @@ hr.solid {
 /* media queries */
 @media only screen and (max-width:1068px) {
     .container {
-    margin: 0 24px 0 24px;
+        margin: 0 24px 0 24px;
     }
+}
+
+@media only screen and (max-width: 890px) {
+
+    h1 {
+        font-size: 3.75rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
-@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.65rem;
     }
-@media only screen and (max-width: 600px) {
+
+    h3 {
+        font-size: 1.45rem;
+    }
+    p {
+        font-size: 1.15rem;
+        margin-bottom: 1rem;
+    }
+
+
+}
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 3.25rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 610px) {
     .container {
-    margin: 0 16px 0 16px;
+        margin: 0 16px 0 16px;
     }
-    h1{
+
+    h1 {
         font-size: 2.25rem;
         margin-bottom: 1rem;
-        }
-        h2{
-        font-size: 1.875rem;
-        }
-        h3{
-        font-size: 1.5rem;
-        }
-        h4{
-        font-size: 1.25rem;
-        }
-        p{
-            font-size: 1rem;
-            margin-bottom: 1rem;
-            }
-            ul {
-                margin-bottom: 0;
-                }
-                ul li {
-                font-size: 1rem;
-                ;
-                }
     }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-bottom: 0.9rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.55rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+
+    ul li {
+        font-size: 1rem;
+        ;
+    }
+}
+
+@media only screen and (max-width: 496px) {
+    h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+        margin-bottom: 0.3rem;
+    }
+
+
+    p {
+        font-size: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+
+    ul li {
+        font-size: 0.75rem;
+        ;
+    }
+
+
+}
