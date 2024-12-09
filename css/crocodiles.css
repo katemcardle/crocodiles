@@ -100,7 +100,7 @@ a {
 /*footer*/
 footer {
     width: 100vw;
-    display: block;
+    display: inline-block;
     overflow: hidden;
     background-color: #1A372A;
     font-size: 1rem;
@@ -237,7 +237,7 @@ ul {
     flex-basis: 50%;
 }
 
-    
+
 /*Dividers*/
 hr.solid {
     border-top: 3px solid #F3F3E0;
@@ -383,6 +383,49 @@ hr.solid {
     ul li {
         font-size: 0.75rem;
         ;
+    }
+
+
+}
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.55rem;
+    }
+
+    .extract h2 {
+        font-size: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    h3 {
+        font-size: 0.6rem;
+        margin-bottom: 0.3rem;
+    }
+
+
+    p {
+        font-size: 0.4rem;
+        margin-bottom: 0.75rem;
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding: 0.2rem;
+    }
+
+    ul li {
+        font-size: 0.4rem;
+        padding: 0.1rem;
+    }
+    .intro{
+        margin-bottom: 2rem;
+    }
+    .about{
+        margin-bottom: 2rem;
+    }
+    footer{
+        padding: 2rem 1rem 1rem 1rem;
     }
 
 
