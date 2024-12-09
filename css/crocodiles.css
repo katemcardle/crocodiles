@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     font-size:100%;
-    line-height: lem;
+    line-height: 1rem;
 }
 /*default style for entire page*/
 body {
@@ -35,23 +35,36 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
     font-size: 4.25rem;
     margin-bottom: 2rem;
+    font-family: "Cinzel", serif;
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 h2 {
     font-size: 2rem;
     margin-bottom: .5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
 }
 
 h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
 }
 
 h4 {
-    font-size: 1;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
 }
 
@@ -110,10 +123,21 @@ img {
     width: 100%;
     height:auto;
     }
-
+/*Image with text*/
+.imagecontainer {
+    position: relative;
+    text-align: center;
+    color: #F3F3E0;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 /*colour blocking*/
 .intro{
-    text-align: center;
+    text-align: left;
     background-color: #F3F3E0;
     padding:3rem 6rem;
     color: #0F291D;
@@ -128,7 +152,7 @@ img {
     color: #F3F3E0;
 }
 .about{
-    text-align: center;
+    text-align: left;
     padding:3rem;
     background-color: #F3F3E0;
     color: #0F291D;
@@ -137,28 +161,28 @@ img {
 }
 .lummorn{
     margin-top: 5rem;
-    text-align: center;
+    text-align: left;
     padding:3rem 0 3rem 0;
     background-color: #F3F3E0;
     color: #0F291D;
 
 }
 .market{
-    text-align: center;
+    text-align: left;
     padding:3rem 0 3rem 0;
     background-color: #F3F3E0;
     color: #0F291D;
 
 }
 .street{
-    text-align: center;
+    text-align: left;
     padding:3rem 0 3rem 0;
     background-color: #F3F3E0	;
     color: #0F291D;
 
 }
 .furtherreading{
-    text-align: center;
+    text-align: left;
     padding:8rem 6rem;
     background-color: #0F291D	;
     color: #F3F3E0;
