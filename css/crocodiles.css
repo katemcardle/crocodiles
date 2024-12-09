@@ -1,7 +1,5 @@
 /*Adding google fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Ledger&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -20,7 +18,7 @@ body {
     margin: 0 auto 0 auto;
 }
 .aboutcontainer {
-    max-width: 1020px;
+    max-width:fit-content;
     margin: 0 auto 0 auto;
 }
 
@@ -35,7 +33,6 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
     font-size: 4.25rem;
     margin-bottom: 2rem;
-    font-family: "Cinzel", serif;
     margin-bottom: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -224,6 +221,7 @@ ul {
   li a:hover {
     background-color: #3A493D;
   }
+
 /*css grids*/
 .grid {
     display: flex;
@@ -234,10 +232,13 @@ ul {
 /* CSS grids column widths */
 .grid-col-half {
     flex-basis: 50%;
-    }
-    .grid-col-secondhalf {
+}
+
+.grid-col-secondhalf {
     flex-basis: 50%;
-    }
+}
+
+    
 /*Dividers*/
 hr.solid {
     border-top: 3px solid #F3F3E0;
