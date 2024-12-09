@@ -301,6 +301,9 @@ hr.solid {
     .extract{
         font-size: 1.6rem;
     }
+    .grid {
+        flex-direction: column;
+        }
 }
 
 @media only screen and (max-width: 700px) {
@@ -309,13 +312,11 @@ hr.solid {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    .grid {
-        flex-direction: column;
-        }
+
 }
 
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 630px) {
     .container {
         margin: 0 16px 0 16px;
     }
@@ -396,6 +397,9 @@ hr.solid {
     .extract{
         font-size: 1.1rem;
     }
+    .intro{
+        margin-bottom: 2.25rem;
+    }
 
 
 }
@@ -443,5 +447,5 @@ hr.solid {
         font-size: 0.75rem;
     }
 
-
 }
+
