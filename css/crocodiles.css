@@ -3,32 +3,41 @@
 * {
     padding: 0;
     margin: 0;
-    font-size:100%;
+    font-size: 100%;
     line-height: 1rem;
 }
+
 /*default style for entire page*/
 body {
-    color:#101010;
+    color: #101010;
     border-color: #101010;
     background-color: #0F291D;
 }
+
 /*content container*/
 .container {
     max-width: 1020px;
     margin: 0 auto 0 auto;
 }
+
 .aboutcontainer {
-    max-width:fit-content;
+    max-width: fit-content;
     margin: 0 auto 0 auto;
 }
 
 
 /*Default Headings styles*/
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Cinzel', serif;
     line-height: 1.1;
     font-weight: 700;
 }
+
 /*Adding specific styles*/
 h1 {
     font-size: 4.25rem;
@@ -81,21 +90,24 @@ ul {
     list-style: disc outside;
     margin-bottom: 1.5rem;
     margin-left: 1.25rem;
-    }
-    ul li {
+}
+
+ul li {
     font-family: "Ledger", serif;
     font-weight: 500;
     font-size: 16px;
     color: #eaeaea;
     text-decoration: none;
-    }
+}
+
 /* hyperlinks */
 a {
-    font-family:inherit;
-    font-size:inherit;
+    font-family: inherit;
+    font-size: inherit;
     line-height: inherit;
     color: #F3F3E0;
-    }
+}
+
 /*blockquote*/
 figure.quote {
     border-left: 8px solid #fdc345;
@@ -114,6 +126,7 @@ figure.quote blockquote {
 figure.quote figcaption p {
     font-weight: 700;
 }
+
 /*footer*/
 footer {
     width: 100%;
@@ -123,39 +136,43 @@ footer {
     color: #F3F3E0;
     padding: 4rem 0 3rem 0;
     text-align: center;
-    }
+}
 
 /*Main*/
-main{
+main {
     margin-bottom: 2.5rem;
-    }
+}
 
 /* images*/
 img {
     width: 100%;
-    height:auto;
-    }
+    height: auto;
+}
+
 /*Image with text*/
 .imagecontainer {
     position: relative;
     text-align: center;
     color: #F3F3E0;
-  }
-  .centered {
+}
+
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+
 /*colour blocking*/
-.intro{
+.intro {
     text-align: left;
     background-color: #F3F3E0;
-    padding:3rem 6rem;
+    padding: 3rem 6rem;
     color: #0F291D;
     margin-bottom: 5rem;
 }
-.extract{
+
+.extract {
     text-align: center;
     background-color: #0F291D;
     padding: 2rem 2rem 0.5rem 2rem;
@@ -163,45 +180,51 @@ img {
     font-weight: bolder;
     color: #F3F3E0;
 }
-.about{
+
+.about {
     text-align: left;
-    padding:3rem 3rem;
+    padding: 3rem 3rem;
     background-color: #F3F3E0;
     color: #0F291D;
-    margin: 0 0 5rem 0 ;
+    margin: 0 0 5rem 0;
 
 }
-.lummorn{
+
+.lummorn {
     margin-top: 5rem;
     text-align: left;
-    padding:3rem 0 3rem 0;
+    padding: 3rem 0 3rem 0;
     background-color: #F3F3E0;
     color: #0F291D;
 
 }
-.market{
+
+.market {
     text-align: left;
-    padding:3rem 0 3rem 0;
+    padding: 3rem 0 3rem 0;
     background-color: #F3F3E0;
     color: #0F291D;
 
 }
-.street{
+
+.street {
     text-align: left;
-    padding:3rem 0 3rem 0;
-    background-color: #F3F3E0	;
+    padding: 3rem 0 3rem 0;
+    background-color: #F3F3E0;
     color: #0F291D;
 
 }
-.furtherreading{
+
+.furtherreading {
     text-align: left;
-    padding:8rem 6rem;
-    background-color: #0F291D	;
+    padding: 8rem 6rem;
+    background-color: #0F291D;
     color: #F3F3E0;
 
 }
+
 /*Header*/
-.title{
+.title {
     background-color: #232C25;
     color: #F3F3E0;
     font-weight: 400;
@@ -211,6 +234,7 @@ img {
     margin: 0;
 
 }
+
 /*Nav bar*/
 ul {
     list-style: none;
@@ -219,45 +243,28 @@ ul {
     padding: 1rem 0;
     overflow: hidden;
     background-color: #1A372A;
-  }
-  
-  li {
+}
+
+li {
     display: inline-block;
-  }
-  
-  li a {
+}
+
+li a {
     display: inline-block;
     color: #F3F3E0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     background-color: #3A493D;
-  }
-
-/*css grids*/
-.grid {
-    display: flex;
-    gap: 0;
-    flex-direction: row;
-    height: auto;
-    }
-/* CSS grids column widths */
-.grid-col-half {
-    flex-basis: 50%;
 }
-
-.grid-col-secondhalf {
-    flex-basis: 50%;
-}
-
 
 /*Dividers*/
 hr.solid {
     border-top: 3px solid #F3F3E0;
-  }
+}
 
 
 
@@ -280,6 +287,7 @@ hr.solid {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
     h2 {
         font-size: 1.65rem;
     }
@@ -287,22 +295,26 @@ hr.solid {
     h3 {
         font-size: 1.45rem;
     }
+
     p {
         font-size: 1.15rem;
         margin-bottom: 1rem;
     }
-    .extract{
+
+    .extract {
         font-size: 1.65rem;
     }
 
 
 }
+
 @media only screen and (max-width: 800px) {
     h1 {
         font-size: 3.25rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
     h2 {
         font-size: 1.6rem;
     }
@@ -310,16 +322,19 @@ hr.solid {
     h3 {
         font-size: 1.4rem;
     }
+
     p {
         font-size: 1.1rem;
         margin-bottom: 1rem;
     }
-    .extract{
+
+    .extract {
         font-size: 1.6rem;
     }
+
     .grid {
         flex-direction: column;
-        }
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -365,16 +380,20 @@ hr.solid {
         font-size: 1rem;
         ;
     }
-    .about{
+
+    .about {
         padding: 1.5rem;
     }
-    .intro{
+
+    .intro {
         padding: 1.5rem;
     }
-    .furtherreading{
+
+    .furtherreading {
         padding: 1.5rem;
     }
-    .extract{
+
+    .extract {
         font-size: 1.4rem;
     }
 
@@ -410,15 +429,18 @@ hr.solid {
         font-size: 0.75rem;
         ;
     }
-    .extract{
+
+    .extract {
         font-size: 1.1rem;
     }
-    .intro{
+
+    .intro {
         margin-bottom: 2.25rem;
     }
 
 
 }
+
 @media only screen and (max-width: 400px) {
     h1 {
         font-size: 1.5rem;
@@ -450,36 +472,45 @@ hr.solid {
         font-size: 0.4rem;
         padding: 0.1rem;
     }
-    .intro{
+
+    .intro {
         margin-bottom: 2rem;
     }
-    .about{
+
+    .about {
         margin-bottom: 2rem;
     }
-    footer{
+
+    footer {
         padding: 2rem 1rem 1rem 1rem;
     }
-    .extract{
+
+    .extract {
         font-size: 0.75rem;
     }
 
 }
+
 @media only screen and (max-width: 324px) {
     h1 {
         font-size: 1.2rem;
         margin-bottom: 0.55rem;
     }
-    .intro{
+
+    .intro {
         margin-bottom: 1rem;
     }
-    .about{
+
+    .about {
         padding: 2rem 0.5rem;
         margin-bottom: 2rem;
     }
-    .extract{
+
+    .extract {
         font-size: 0.75rem;
     }
-    .lummorn{
+
+    .lummorn {
         margin-top: 2.5rem;
     }
 }
