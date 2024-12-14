@@ -112,15 +112,10 @@ a {
 figure.quote {
     border-left: 8px solid #fdc345;
     padding: 1.5rem 0 1.5rem 2rem;
-    margin-bottom: 2rem;
 }
 
 figure.quote p {
     margin-bottom: 0;
-}
-
-figure.quote blockquote {
-    margin-bottom: .5rem;
 }
 
 figure.quote figcaption p {
@@ -436,6 +431,18 @@ hr.solid {
 
     .intro {
         margin-bottom: 2.25rem;
+    }
+    .about{
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .street{
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .lummorn{
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .market{
+        padding: 1.5rem 0 1.5rem 0;
     }
 
 
